@@ -111,33 +111,6 @@ Endpoints:
     Public-Port-Name:  SSH_PROXY_PORT
     Options:           { "ssl_to_gear": true }
 
-  # AMQ Ports.
-  - Private-IP-Name:   IP
-    Private-Port-Name: OPENWIRE_PORT
-    Private-Port:      31313
-    Public-Port-Name:  OPENWIRE_PROXY_PORT
-    Options:           { "ssl_to_gear": true }
-  - Private-IP-Name:   IP
-    Private-Port-Name: STOMP_PORT
-    Private-Port:      31323
-    Public-Port-Name:  STOMP_PROXY_PORT
-    Options:           { "ssl_to_gear": true }
-  - Private-IP-Name:   IP
-    Private-Port-Name: AMQP_PORT
-    Private-Port:      31333
-    Public-Port-Name:  AMQP_PROXY_PORT
-    Options:           { "ssl_to_gear": true }
-  - Private-IP-Name:   IP
-    Private-Port-Name: MQTT_PORT
-    Private-Port:      31343
-    Public-Port-Name:  MQTT_PROXY_PORT
-    Options:           { "ssl_to_gear": true }
-  - Private-IP-Name:   IP
-    Private-Port-Name: REPLICATION_PORT
-    Private-Port:      31353
-    Public-Port-Name:  REPLICATION_PROXY_PORT
-    Options:           { "ssl_to_gear": true }
-
   #
   # Ports private to the gear
   #
